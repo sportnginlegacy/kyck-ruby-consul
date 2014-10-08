@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '~> 0.9.0'
   spec.add_development_dependency 'coveralls', '~> 0.7.0'
   spec.add_development_dependency 'pry', '~> 0.10.0'
+  spec.add_development_dependency 'pry-byebug', '~> 2.0.0'
 end
