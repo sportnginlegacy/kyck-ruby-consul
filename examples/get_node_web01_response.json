@@ -1,0 +1,22 @@
+{
+  "Node": {
+    "Node": "web01",
+    "Address": "10.0.0.1"
+  },
+  "Services": {
+    "consul": {
+      "ID": "consul",
+      "Service": "consul",
+      "Tags": [],
+      "Port": 8300
+    },
+    "web": {
+      "ID": "web",
+      "Service": "web",
+      "Tags": [
+        "rails"
+      ],
+      "Port": 80
+    }
+  }
+}
